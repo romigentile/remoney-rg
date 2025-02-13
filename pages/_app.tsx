@@ -1,4 +1,4 @@
-import Footer from "./components/Footer";
+import Footer from "../src/components/Footer";
 import { AppProps } from 'next/app'
 
 function App({ Component, pageProps }: AppProps) {
@@ -8,6 +8,6 @@ function App({ Component, pageProps }: AppProps) {
           <Footer />
         </div>
       );
-}
+};
 
-export default App
+export default App;
